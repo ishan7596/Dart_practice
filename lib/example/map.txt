@@ -1,0 +1,39 @@
+void main() { 
+   var details = {'Usrname':'tom','Password':'pass@123'}; 
+   details['Uid'] = 'U1oo1'; 
+   print(details); 
+  
+  
+  print(details.entries);
+  print(details.isEmpty); 
+  print(details.isNotEmpty); 
+  print(details.keys); 
+  print(details.length); 
+  print(details.values); 
+  print(details.hashCode); 
+  print("${details.runtimeType} \n"); 
+  
+  details.addAll({"number" : "123456789"});
+  print(details); 
+//   details.cast();
+  print(details.cast()); 
+  print(details.containsKey("Password")); 
+  print(details.containsValue("tom"));
+  details.forEach((e,k) => e.toUpperCase());
+  print(details);
+  print(details.remove(1));
+  print(details);
+  print(details.update("Uid", (value) => "uhIUs"));
+  print(details);
+  details.updateAll((key, value) => value.toUpperCase());
+  print(details);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+} 

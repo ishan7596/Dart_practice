@@ -1,0 +1,98 @@
+void main() {
+  var elements = [
+    12,
+    15,
+    23,
+    25,
+    41,
+    12,
+    56,
+    15,
+    74,
+    23,
+    56,
+    22,
+    12,
+    41,
+    75,
+    75,
+    23,
+    
+  ];
+
+  
+  
+    print("1 : ${countOccurrencesUsingLoop(elements , )}");
+
+  
+  
+  
+//    var a = Map();
+
+//   elements.forEach((x) {
+//     a[x] = !a.containsKey(x) ? (1) : (a[x] + 1);
+//   });
+  
+   
+//   print("$a \n");
+  
+//   List b=[];
+  
+//   for(int i = 0 ; i< a.keyslength;i++){
+    
+//     if(a.values == 1){
+      
+//       b.add(a);
+//     }
+//   };
+//   print("1:${b.toList()}");
+  
+  
+  
+
+  
+  
+  
+  
+  
+//   
+  
+//   List b=[], c=[], d=[];
+  
+//   a.forEach((key,value){
+//     if(value ==1){
+//       b.add(key);
+//     }
+//   });
+//   print("1 : ${b.toList()}");
+  
+//   a.forEach((key,value){
+//     if(value ==2){
+//       c.add(key);
+//     }
+//   });
+//   print("2 : ${c.toList()}");
+  
+//   a.forEach((key,value){
+//     if(value ==3){
+//       d.add(key);
+//     }
+//   });
+//   print("3 : ${d.toList()}");
+  
+}
+  int countOccurrencesUsingLoop(List<int> list, int element) {
+  if (list == null || list.isEmpty) {
+    return 0;
+  }
+
+  int count = 0;
+  for (int i = 0; i < list.length; i++) {
+    if (list[i] == element) {
+      count++;
+    }
+  }
+
+  return count;
+}
+  

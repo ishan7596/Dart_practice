@@ -1,0 +1,44 @@
+void main() {   
+   String str1 = 'Welcome To ';   
+   String str2 = "JavaTpoint";   
+   String str3 = str1+str2;  
+  var str = 'Dash is a bird';
+  
+   print(str3);   
+  
+  print(str1.codeUnits);
+  print(str1.hashCode);
+  print(str1.isEmpty);
+  print(str1.isNotEmpty);
+  print(str1.length);
+  print(str1.runes);
+  print("${str1.runtimeType} \n");
+  
+  
+  print(str1.allMatches(" ")); //?
+  print(str1.codeUnitAt(0));
+  print(str1.compareTo(str1));
+  print(str1.contains('el'));
+  print(str.endsWith("d"));
+  print(str1.indexOf("m"));
+  print(str1.lastIndexOf("e"));
+  print(str1.matchAsPrefix("")); //?
+  print(str1.padLeft(50));
+  print(str1.padRight(10));
+  print(str1.replaceAll("Welco","Ishan"));
+  print(str1.replaceFirst("W","ww"));
+  print(str1.replaceRange(0,5,"Ishans"));
+  print(str2.split(""));
+//   print(str1.splitMapJoi0n()); //?
+  print(str1.startsWith("W"));
+  print(str1.substring(1,6));
+  print(str1.toLowerCase());
+  print(str1.toString());
+  print(str1.toUpperCase());
+  print(str1.trim());
+  print(str2.trimLeft());
+  print(str.trimRight());
+
+  
+  
+}  

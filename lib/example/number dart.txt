@@ -1,0 +1,47 @@
+void main(){  
+
+  var a =5000,b=2,c=-7,d=7.976545646;
+  print(a);
+  print(b.bitLength);
+  print(b.isEven);
+  print(b.isOdd);
+  print(c.sign);
+  print(c.hashCode);
+  print(b.isFinite);
+  print(c.isInfinite);
+  print(b.isNaN);
+  print(c.isNegative);
+  print("$b.runtimeType \n");
+ 
+  
+  print(a.abs());
+  print(d.ceil());
+  print(d.ceilToDouble());
+  print(a.clamp(c,d));
+  print(b.compareTo(2));
+  print(b.compareTo(4));
+  print(b.compareTo(1));
+  print(d.floor());
+  print(d.floorToDouble());
+  print(b.gcd(16));
+  print(b.modInverse(1));
+  print(b.modPow(1,4));
+  print(a.remainder(6));
+  print(d.round());
+  print(b.roundToDouble());
+  print(b.toDouble());
+  print(b.toInt());
+  print(31.toRadixString(2)); //convert it into binary form. there is 2,8,16 bases
+  print(16.toSigned(5));
+  print(a.toString());
+  print(16.toUnsigned(5));
+  print(d.truncate());
+  print(a.truncateToDouble());
+  print(b.toStringAsExponential());
+  print(a.toStringAsFixed(2));
+  print(a.toStringAsPrecision(7));
+  
+  
+  
+  
+}  
