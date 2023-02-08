@@ -1,0 +1,39 @@
+void main() {
+  var elements = [
+    12,
+    15,
+    23,
+    25,
+    41,
+    12,
+    56,
+    15,
+    74,
+    23,
+    56,
+    22,
+    12,
+    41,
+    75,
+    75,
+    23,
+  ];
+  
+  Map count = {};
+  Map output = {};
+  for (var a in elements) {
+    count[a] = count[a] == null ? 1 : count[a] + 1;
+  }
+  print(count);
+  for (var key in count.keys) {
+    if (output[count[key]] == null) {
+      output[count[key]] = [key];
+    } else {
+      output[count[key]].add(key);
+    }
+  }
+//   print(output);
+  print("1: ${output[1]}");
+  print("2: ${output[2]}");
+  print("3: ${output[3]}");
+}
